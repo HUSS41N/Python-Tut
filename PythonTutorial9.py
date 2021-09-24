@@ -65,4 +65,4 @@ else:
 
 # 1. Input a number and check whether the number is divisible by 2
 # if divisible print("Divisible")
-
+# 2 Write a python program to check whether a number is negative, positive or zero.
