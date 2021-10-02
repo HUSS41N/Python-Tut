@@ -97,3 +97,24 @@ def happyBirthday(name,age):
 # 5 Write a Python program to print the even numbers from a given list
     # Sample List : [1, 2, 3, 4, 5, 6, 7, 8, 9]
     # Expected Result : [2, 4, 6, 8]
+# 2. Write a Python function to multiply all the numbers in a list.
+myList = [1,2,3,4,5]
+
+ans = 1;
+
+def multiply(myList,ans):
+    for num in myList:
+        ans = ans * num;
+    print(ans)
+
+# multiply(myList,ans);
+
+# 4. Write a python program to find if the string is a palindrom. string == reverse(String) eg "racecar" "aba"
+
+def palindrome(word):
+    if word == word[::-1]:
+        print("Word is a palindrome")
+    else:
+        print("Not a palindrome")
+
+# palindrome("racecar")
