@@ -20,3 +20,30 @@ def helperFunc(sum):
     print(f"Total sum is {sum}")
 
 helperFunc(sum);
+
+from random import randint, shuffle;
+# from packageName import functionName
+import datetime
+import math
+
+# myList = [1,2,3,4,5]
+# print(myList)
+# shuffle(myList)
+# print(myList)
+# shuffle(myList)
+# print(myList)
+# shuffle(myList)
+# print(myList)
+# shuffle(myList)
+# print(myList)
+
+# print(datetime.datetime.now())
+# print(math.sqrt(4))
+# print(math.factorial(10))
+
+
+names = ["Neha","Shaista","Faisal","Aadil"]
+
+index = randint(0,3)
+
+print(names[index])       
