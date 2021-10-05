@@ -130,3 +130,76 @@ def areaOfCircle(r):
 # Write a Python program to count the number 4 in a given list [1,2,3,4,1,3,4,4,4]
 # Write a Python program that will accept the base and height of a triangle and compute the area
 # Write a Python program to display your details like name, age, address in three different lines
+# Write a Python program which accepts the user's first and last name and print them in reverse order with a space between them
+# write a program to find the min value in an list
+# Write a Python program to display the first and last colors from the following list color_list = ["Red","Green","White" ,"Black"]
+# Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+# Write a Python program to print the calendar of a given month and year.# Note : Use 'calendar' module.
+# Write a Python program to get the volume of a sphere with radius 6.
+# Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum
+# Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
+# Write a Python program to count the number 4 in a given list [1,2,3,4,1,3,4,4,4]
+# Write a Python program that will accept the base and height of a triangle and compute the area
+# Write a Python program to display your details like name, age, address in three different lines
+
+# color_list = ["Red","Green","White" ,"Black"]
+# print(color_list[0],color_list[-1])
+# myList = [12,34,451,6,2,7,3,8]
+# myList.sort()
+# print(myList)
+# print(myList[0])
+
+# Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
+
+# n = int(input("Enter a value of n"))
+# print(n + n*n + n*n*n)
+
+#  Write a Python program to get the volume of a sphere with radius 6.
+
+def vol(r):
+    print(4/3 * (3.14 * r*r*r))
+
+# Write a Python program to calculate the sum of three given numbers, if the values are equal then return three times of their sum
+
+def calculate(n1,n2,n3):
+    sum = n1+n2+n3
+    if n1 == n2 == n3:
+        print(sum * 3)
+    else:
+        print(sum)
+
+# calculate(1,2,3)
+# calculate(2,2,2)
+
+# Write a Python program to find whether a given number (accept from the user) is even or odd, print out an appropriate message to the user.
+
+def oddEven():
+    num = int(input("Enter a number"))
+    if num % 2 != 0:
+        print("Odd Number")
+    else:
+        print("Even Number")
+
+# oddEven()
+
+myList = [1,2,3,4,1,3,4,4,4,4]
+counter = 0
+for num in myList:
+    if num == 4:
+        counter += 1
+    
+# print(counter)
+
+def printdetails(name,age,addres):
+    print(name)
+    print(age)
+    print(addres)
+
+
+def findSum(n):
+    sum = 0
+    for num in range(1,n+1):
+        sum += num
+    print(sum)
+
+findSum(100)
